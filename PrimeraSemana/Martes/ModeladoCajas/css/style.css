@@ -1,0 +1,27 @@
+#padding{
+	color: #318DE5;
+	text-align: justify;
+	background: #00510A;
+	padding: 50px;
+}
+
+#border{
+	color: #318DE5;
+	text-align: justify;
+	background: #00510A;
+	border: 80px solid #00510A;	
+	margin: 0px;
+}
+
+#margin{
+	color: #318DE5;
+	text-align: justify;
+	background: #00510A;
+	margin: 0px 150px 15px 30px;
+}
+
+#imagen{
+	padding: 50px;
+	border: 80px solid #00510A;
+	margin: 50px;
+}
