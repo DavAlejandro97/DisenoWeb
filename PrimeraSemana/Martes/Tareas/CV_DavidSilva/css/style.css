@@ -1,0 +1,93 @@
+/*
+TAREA
+Como deployar una pagina web con IBM cloud
+
+Selector por etiquetas 
+Selector descendente
+Selector de clase
+
+*/
+
+body{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	background-color: #f1f1f1;
+}
+
+
+body a{
+	font-family: 'Do Hyeon', sans-serif;
+	height: 120px;
+	background: grey;
+}
+h1{
+	font-family: 'Gugi', cursive;
+	color: #fff;
+}
+header{
+	background-color: rgb(28,58,64);
+	/*rgba donde a es la opacidad que se le quiere dar*/
+	margin: 2px;
+	padding: 2px;
+}
+
+h1,h2{
+	text-align: center;
+	padding-top: 10px;
+}
+
+nav ul li, footer ul li{
+	display: inline-block;
+	padding: 2px solid rgb(28,58,64);
+}
+
+nav a, footer a{
+	display: inline-block;
+	/*El ancho se puede especificar en pixeles o porcentaje*/
+	width: 100px;
+	height: 20px;
+	text-decoration: none;	
+	background-color: #0A0A2A;
+	color:#fff;
+	text-align: center;
+}
+
+img{
+	width: 45%;
+}
+
+.informacion-personal{
+	text-align: center;
+	width: 80%;
+}
+
+li:hover a{
+	background-color: #ccc;
+}
+
+footer{
+	font-family: 'Do Hyeon', sans-serif;
+	height: 120px;
+	background: grey;
+}
+
+section.premios{
+	width: 60%;
+}
+
+table,th,td{
+	border: 2px solid rgb(28,58,64);
+	border-collapse: collapse;
+}
+
+section.bibliografia-txt{
+	text-align: justify;
+	width: 50%;
+	height: 20%;
+	font-family: 'Raleway', sans-serif;
+}
+
+.active{
+	background-color: #ccc;
+}
