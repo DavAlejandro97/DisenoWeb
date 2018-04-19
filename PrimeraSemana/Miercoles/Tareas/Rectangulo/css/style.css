@@ -1,0 +1,40 @@
+body {
+	background:#4D4D4D;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+}
+
+div {
+	margin: auto;
+}
+
+p {
+	padding: 100px;
+	color: white;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+/*--------------------------------------------*/
+
+.rectangulo {
+	border-style: solid;
+	border-width: 1px;
+	display: block;
+	width: 100px;
+	height: 50px; 
+	background-color: #A7E22E;
+	transition-duration: 10s;
+	transition-timing-function: linear;
+	transition-delay: 5s;
+}
+.rectangulo:hover {
+	width: 500px;
+}

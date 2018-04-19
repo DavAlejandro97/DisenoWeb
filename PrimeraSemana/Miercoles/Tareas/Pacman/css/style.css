@@ -1,0 +1,71 @@
+body {
+	background:#4D4D4D;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+}
+
+div {
+	margin: auto;
+}
+
+/*--------------------------------------------*/
+.pacman {
+	margin: 50px 10px;
+	position: relative;
+}
+
+.pacman1 {
+	background: #A7E22E;
+	height: 100px;
+	width: 200px;
+	border-radius: 100px 100px 0 0;	
+	animation-name: pacman1;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+.pacman2 {
+	background: #A7E22E;
+	height: 100px;
+	width: 200px;
+	border-radius: 0 0 100px 100px;
+	animation-name: pacman2;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+/*-------------------------------------------*/
+
+
+@keyframes pacman1 {
+	from {
+		transform: rotate(0deg);
+		position: relative;
+		left: -400px;
+	}
+	to {
+		transform: rotate(-45deg);
+		position: relative;
+		left: 400px;
+	}
+}
+
+@keyframes pacman2 {
+	from {
+		transform: rotate(0deg);
+		position: relative;
+		left: -400px;
+	}
+	to {
+		transform: rotate(45deg);
+		position: relative;
+		left: 400px;
+	}
+}
