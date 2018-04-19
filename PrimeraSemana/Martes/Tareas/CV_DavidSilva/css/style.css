@@ -14,8 +14,6 @@ body{
 	height: 100%;
 	background-color: #f1f1f1;
 }
-
-
 body a{
 	font-family: 'Do Hyeon', sans-serif;
 	height: 120px;
@@ -38,8 +36,7 @@ h1,h2{
 }
 
 nav ul li, footer ul li{
-	display: inline-block;
-	padding: 2px solid rgb(28,58,64);
+	display: inline;
 }
 
 nav a, footer a{

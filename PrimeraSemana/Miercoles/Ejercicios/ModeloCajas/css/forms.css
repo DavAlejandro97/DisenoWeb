@@ -1,0 +1,44 @@
+form {
+	margin: 0 auto;
+	width: 400px;
+	padding: 1em;
+	border: 1px solid #ccc;
+	border-radius: 1em;
+}
+
+div +div {
+	margin-top: 1em;
+}
+
+label {
+	display: inline-block;
+	width: 90px;
+	text-align: right;
+}
+
+input , textarea {
+	font: 1em sans-serif;
+	width: 300px;
+}
+
+input , textarea {
+	font: 1em sans-serif;
+	width: 300px;
+	border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+	border-color: #000;
+}
+
+textarea {
+	vertical-align: top;
+	height: 5em;
+	resize: vertical;
+	/*medida uno: desplazamiento horizontal*/
+	/*medida dos: desplazamiento vertical*/
+	/*medida tres: (opcional) difuminacion de la sombra*/
+	/*medida cuatro: (opcional) el radio con el que se expande la sombra */
+	box-shadow: 10px 10px #999;
+}
+

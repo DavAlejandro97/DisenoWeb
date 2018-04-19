@@ -1,0 +1,182 @@
+body {
+	background:#4D4D4D;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+}
+
+div {
+	margin: auto;
+}
+
+.cuadrado {
+	width: 150px;
+	height: 150px;
+	background: #9358FE;
+	animation-name: cuadrado;
+	animation-duration: 10s;
+}
+
+.rectangulo {
+	width: 300px;
+	height: 150px;
+	background: #9358FE;
+	animation-name: cuadrado;
+	animation-duration: 10s;
+	position: relative;
+}
+
+.triangulo {
+	height: 0;
+	width: 0;
+	border-left:50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 50px solid #FB5993;
+	position: relative;
+	animation-name: triangulo;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+.circulo {
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	background-color: white;
+	animation: circulo 1s linear 0s infinite;
+}
+
+
+/*--------------------------------------------*/
+.pacman {
+	margin: 50px 10px;
+}
+
+.pacman1 {
+	background: #A7E22E;
+	height: 100px;
+	width: 200px;
+	border-radius: 100px 100px 0 0;	
+	animation-name: pacman1;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+.pacman2 {
+	background: #A7E22E;
+	height: 100px;
+	width: 200px;
+	border-radius: 0 0 100px 100px;
+	animation-name: pacman2;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+/*-------------------------------------------*/
+
+@keyframes cuadrado {
+	0%{background-color: #FB5993;}
+	25%{background-color: #66D9EE}
+	50%{background-color: #A7E22E}
+	100%{background-color: #FE9720}
+}
+
+@keyframes triangulo {
+	0%{
+		border-left: 50px solid transparent; 
+		border-right: 50px solid transparent;
+		border-bottom: 50px solid #FB5993;
+		left: 0px;
+		top: 0px;
+	}
+	25%{
+		border-left: 50px solid transparent; 
+		border-right: 50px solid transparent;
+		border-bottom: 50px solid #FB5993;
+		left: 200px;
+		top: 0px;
+	}
+	50%{
+		border-left: 50px solid transparent; 
+		border-right: 50px solid transparent;
+		border-bottom: 50px solid #FB5993;
+		left: 200px;
+		top: 200px;
+	}
+	75%{
+		border-left: 50px solid transparent; 
+		border-right: 50px solid transparent;
+		border-bottom: 50px solid #FB5993;
+		left: 0px;
+		top: 200px;
+	}
+	100%{
+		border-left: 50px solid transparent; 
+		border-right: 50px solid transparent;
+		border-bottom: 50px solid #FB5993;
+		left: 0px;
+		top: 0px;
+	}
+}
+
+@keyframes circulo {
+	from {
+		box-shadow: 
+		100px 0 0 0 white,
+		300px 0 0 0 white,
+		500px 0 0 0 white,
+		700px 0 0 0 white,
+		900px 0 0 0 white,
+		1100px 0 0 0 white,
+		1300px 0 0 0 white;
+	}
+	to {
+		box-shadow: 
+		0px 0 0 0 white,
+		100px 0 0 0 white,
+		300px 0 0 0 white,
+		500px 0 0 0 white,
+		700px 0 0 0 white,
+		900px 0 0 0 white,
+		1100px 0 0 0 white;
+	}
+}
+
+@keyframes pacman1 {
+	from {
+		transform: rotate(0deg);
+		left: 0px;	
+	}
+	to {
+		transform: rotate(45deg);
+		left: 0px;
+	}
+}
+
+@keyframes pacman2 {
+	from {
+		transform: rotate(0deg);
+		left: 0px;	
+	}
+	to {
+		transform: rotate(-45deg);
+		left: 0px;
+	}
+}
+
+
+/*@keyframes slidein {
+	from{
+		margin-left: 100%;
+		width: 300%;
+	}
+	to{
+		margin-left: 0%;
+		width: 50%;
+	}
+}*/
