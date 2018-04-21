@@ -1,0 +1,34 @@
+body {
+	background-color: #004B1A;
+}
+
+h1, h2 {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+p {
+	width: 50%;
+	color: white;
+	text-align: justify;
+	font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 1800px) and (min-width: 992px){
+	body{
+		background: #004B1A;
+	}
+	img {
+		width : 50%;
+	}
+}
+
+@media screen and (max-width: 992px) and (min-width: 600px){
+	body{
+		background: #004B1A;
+	}
+	img {
+		width : 50%;
+	}
+}
+
