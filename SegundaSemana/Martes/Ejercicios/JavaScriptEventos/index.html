@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Eventos - HTML/JavaScript</title>
+</head>
+<body onload="mostrarDatos()">
+	<h1>Evento OnClick</h1>
+	<div>
+		<img src="img/icons8-luz-apagada-48.png" alt="" onclick="this.src='img/icons8-luz-encendida-48.png'">
+		<p>Cuando damos click cambia la foto</p>
+	</div>
+	<input type="text" id="num1">
+	<button onclick="vaciar()">vaciar</button>
+	<button onclick="Cuadrado()">x<sup>2</button>
+	<h3>Escribe tu nombre</h3>
+	<input type="text" id="nombre" onchange="mayus()">
+	<h1>Formulario del INE, ¿quien ganó el debate?</h1>
+	<div class="row">
+		<div class="lista"></div>
+	</div>
+
+</body>
+	<script type="text/JavaScript" src="js/app.js"></script>
+
+</html>
