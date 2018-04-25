@@ -11,6 +11,8 @@ function add(){
 		document.getElementById("area").value += lista[i] + ", "
 	}
 
+	document.getElementById("nombre").value = "";
+
 
 
 
